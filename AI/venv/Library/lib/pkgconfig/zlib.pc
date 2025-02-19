@@ -1,0 +1,13 @@
+prefix=D:/repos/Exscore-hackathon/AI/venv/Library
+exec_prefix=D:/repos/Exscore-hackathon/AI/venv/Library
+libdir=D:/repos/Exscore-hackathon/AI/venv/Library/lib
+sharedlibdir=D:/repos/Exscore-hackathon/AI/venv/Library/lib
+includedir=D:/repos/Exscore-hackathon/AI/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
