@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ClipCraft - Summarize YouTube Videos</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(135deg, #001824, #003d5c);
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+    .container {
+      text-align: center;
+      background: rgba(0, 30, 60, 0.8);
+      padding: 40px 60px;
+      border-radius: 15px;
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+      backdrop-filter: blur(10px);
+    }
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      font-weight: 700;
+      margin-bottom: 10px;
+      letter-spacing: 1px;
+      color: #cce7ff;
+    }
+    p.tagline {
+      font-size: 1.3rem;
+      margin-bottom: 30px;
+      color: #e0f7fa;
+      font-weight: 400;
+      letter-spacing: 0.5px;
+    }
+    input[type="text"] {
+      width: 100%;
+      padding: 15px;
+      font-size: 1rem;
+      font-family: 'Roboto', sans-serif;
+      border: none;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      background: rgba(255, 255, 255, 0.1);
+      color: #cce7ff;
+      outline: none;
+      transition: background 0.3s ease;
+    }
+    input[type="text"]:focus {
+      background: rgba(255, 255, 255, 0.2);
+    }
+    button {
+      padding: 15px 30px;
+      font-size: 1rem;
+      font-weight: 500;
+      font-family: 'Roboto', sans-serif;
+      color: white;
+      background: #003047;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s ease, transform 0.3s ease;
+    }
+    button:hover {
+      background: #002233;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>ClipCraft</h1>
+    <p class="tagline">Crafting Clarity from Chaos – Summarize Videos in Seconds!</p>
+    <input type="text" placeholder="Paste YouTube Video Link Here..." id="videoLink">
+    <button onclick="getSummary()">Get Detailed Notes</button>
+  </div>
+</body>
+</html>
