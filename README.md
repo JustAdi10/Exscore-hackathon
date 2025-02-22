@@ -14,6 +14,9 @@ ClipCraft is a project that takes YouTube video links and summarizes them in the
 
 ## Set-up
 ```sh
+# Clone the repository
+git clone https://github.com/JustAdi10/Exscore-hackathon.git
+
 # Navigate to the project directory
 cd AI
 
