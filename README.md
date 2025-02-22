@@ -33,3 +33,6 @@ export GOOGLE_API_KEY=your_google_api_key_here
 streamlit run your_script.py
 ```
 
+## Note
+Due to the limits of the free API key of Google, we cannot process longer videos.
+
