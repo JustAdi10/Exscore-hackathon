@@ -1,5 +1,8 @@
 # ClipCraft
 
+### Live Deployment
+Experience ClipCraft live at [ClipCraft App](https://clipcraft.streamlit.app/).
+
 ## Project Description
 ClipCraft is a project that takes YouTube video links and summarizes them in the form of text. Whether you're a student, content creator, marketer, or educator, ClipCraft provides an intuitive interface and robust features to help you generate concise summaries of video content for your needs.
 
